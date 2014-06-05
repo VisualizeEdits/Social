@@ -1,0 +1,111 @@
+tr td.trow1:first-child,
+tr td.trow2:first-child,
+tr td.trow_shaded:first-child {
+	border-left: 0;
+}
+
+tr td.trow1:last-child,
+tr td.trow2:last-child,
+tr td.trow_shaded:last-child {
+	border-right: 0;
+}
+
+.tborder {
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.thead {
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.thead_collapsed {
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.thead_left {
+    border-top-right-radius: 0;
+}
+
+.thead_right {
+    border-top-left-radius: 0;
+}
+
+tr:last-child td.tfoot:first-child {
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+tr:last-child td.tfoot:last-child {
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+input.button,
+input.textbox,
+input.invalid_field,
+input.valid_field,
+select,
+textarea,
+.editor_control_bar,
+blockquote,
+.codeblock,
+fieldset,
+.pm_alert,
+.red_alert,
+.popup_menu,
+.postbit_buttons > a,
+a.button {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.post.classic .post_author {
+	-moz-border-radius: 0 6px 6px 0;
+	-webkit-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+}
+
+.popup_menu .popup_item_container:first-child .popup_item {
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.popup_menu .popup_item_container:last-child .popup_item {
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.pagination a {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.pollbar {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
