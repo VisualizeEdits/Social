@@ -21,4 +21,5 @@ It has a mixture of Twitter and Reddit which make socializing with other members
 
 Credit:
 VisualizeEdits (Owner/HTML/CSS/CoreEdits/Developer/BugFixes/Ideas/Designer/Support)
+
 Bala (HTML/CSS/BugFixes/Ideas/Support)
